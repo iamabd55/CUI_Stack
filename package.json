@@ -1,0 +1,32 @@
+{
+  "name": "cui_stack",
+  "version": "1.0.0",
+  "description": "Backend-first setup for CUI Stack project.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamabd55/CUI_Stack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/iamabd55/CUI_Stack/issues"
+  },
+  "homepage": "https://github.com/iamabd55/CUI_Stack#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.45.1",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.8"
+  }
+}
